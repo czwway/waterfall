@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>waterfall</title>
+	<style>
+		*{
+			padding: 0;
+			margin: 0;
+			box-sizing: border-box;
+		}
+		section{
+			display: flex;
+		    flex-wrap: wrap;
+			
+		}
+		section:after{
+			content: '';
+			flex-grow: 9999;
+		}
+		section .img-waterfall{
+			    margin: 2px;
+			    flex-grow: 1;
+			    position: relative;
+		}
+		section img {
+			height: 200px;
+			min-width: 100%;
+			object-fit: cover;
+		}
+		section .info{
+			position: absolute;
+
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+
+		}
+		section .info:hover{
+			background-color: rgba(77, 77, 77, .3);
+			transition: all .5s;
+		}
+		section .info:hover .title {
+			height: 40px;
+			background-color: rgba(30, 30, 30, .7);
+			transition: all .5s;
+		}
+		section .title{
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			text-align: center;
+			margin-bottom: 4px;
+			line-height: 40px;
+			color: #fff;
+			height: 0;
+			padding: 0 10px;
+			overflow: hidden;
+			white-space: nowrap;
+    		text-overflow: ellipsis;
+		}
+	</style>
+</head>
+<body>
+	<section>
+		<div class="img-waterfall">
+			<img src="https://mfs-mark.github.io/love-wall/imgs/1.jpg" alt="">
+			<div class="info">
+				<div class="title">hello hello hello hello hello hellohello hello hello hello </div>
+			</div>
+		</div>
+		<div class="img-waterfall">
+			<img src="https://mfs-mark.github.io/love-wall/imgs/2.jpg" alt="">
+			<div class="info">
+				<div class="title">hello</div>
+			</div>
+		</div>
+		<div class="img-waterfall">
+			<img src="https://mfs-mark.github.io/love-wall/imgs/3.jpg" alt="">
+			<div class="info">
+				<div class="title">hello</div>
+			</div>
+		</div>
+		<div class="img-waterfall">
+			<img src="https://mfs-mark.github.io/love-wall/imgs/4.jpg" alt="">
+			<div class="info">
+				<div class="title">hello</div>
+			</div>
+		</div>
+		<div class="img-waterfall">
+			<img src="https://mfs-mark.github.io/love-wall/imgs/5.jpg" alt="">
+			<div class="info">
+				<div class="title">hello</div>
+			</div>
+		</div>
+		<div class="img-waterfall">
+			<img src="https://mfs-mark.github.io/love-wall/imgs/6.jpg" alt="">
+			<div class="info">
+				<div class="title">hello</div>
+			</div>
+		</div>
+		<div class="img-waterfall">
+			<img src="https://mfs-mark.github.io/love-wall/imgs/7.jpg" alt="">
+			<div class="info">
+				<div class="title">hello</div>
+			</div>
+		</div>
+		<div class="img-waterfall">
+			<img src="https://mfs-mark.github.io/love-wall/imgs/8.jpg" alt="">
+			<div class="info">
+				<div class="title">hello</div>
+			</div>
+		</div>
+		<div class="img-waterfall">
+			<img src="https://mfs-mark.github.io/love-wall/imgs/9.jpg" alt="">
+			<div class="info">
+				<div class="title">hello</div>
+			</div>
+		</div>
+
+		<div class="img-waterfall">
+			<img src="https://mfs-mark.github.io/love-wall/imgs/10.jpg" alt="">
+			<div class="info">
+				<div class="title">hello</div>
+			</div>
+		</div>
+		<div class="img-waterfall">
+			<img src="https://mfs-mark.github.io/love-wall/imgs/11.jpg" alt="">
+			<div class="info">
+				<div class="title">hello</div>
+			</div>
+		</div>
+		<div class="img-waterfall">
+			<img src="https://mfs-mark.github.io/love-wall/imgs/12.jpg" alt="">
+			<div class="info">
+				<div class="title">hello</div>
+			</div>
+		</div>
+		<div class="img-waterfall">
+			<img src="https://mfs-mark.github.io/love-wall/imgs/13.jpg" alt="">
+			<div class="info">
+				<div class="title">hello</div>
+			</div>
+		</div>
+		<div class="img-waterfall">
+			<img src="https://mfs-mark.github.io/love-wall/imgs/14.jpg" alt="">
+			<div class="info">
+				<div class="title">hello</div>
+			</div>
+		</div>
+		<div class="img-waterfall">
+			<img src="https://mfs-mark.github.io/love-wall/imgs/15.jpg" alt="">
+			<div class="info">
+				<div class="title">hello</div>
+			</div>
+		</div>
+		<div class="img-waterfall">
+			<img src="https://mfs-mark.github.io/love-wall/imgs/16.jpg" alt="">
+			<div class="info">
+				<div class="title">hello</div>
+			</div>
+		</div>
+		<div class="img-waterfall">
+			<img src="https://mfs-mark.github.io/love-wall/imgs/17.jpg" alt="">
+			<div class="info">
+				<div class="title">hello</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
